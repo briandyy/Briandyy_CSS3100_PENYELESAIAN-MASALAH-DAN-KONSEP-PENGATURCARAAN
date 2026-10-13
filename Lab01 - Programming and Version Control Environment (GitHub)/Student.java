@@ -23,7 +23,7 @@ public class Student
         // Line 2 - matric number
         System.out.println("Matric No : BC264825");
 
-        // Line 3 - address (TODO: replace with your real address before presenting)
-        System.out.println("Address   : [your address here]");
+        // Line 3 - address
+        System.out.println("Address   : KMR Oneputra Residence");
     }
 }

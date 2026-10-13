@@ -33,7 +33,7 @@ Afif Febriandy
 ```text
 Full Name : Afif Febriandy
 Matric No : BC264825
-Address   : [your address here]
+Address   : KMR Oneputra Residence
 ```
 
 **3 — `Welcome.java`**
@@ -70,6 +70,6 @@ No `javac` yet? Install the latest **JDK** — or use **Eclipse**: *Run As → J
 
 ## ✅ Before presenting
 
-- [ ] Replace the **address placeholder** in `Student.java` with your own address.
+- [x] Fill in the real address in `Student.java`.
 - [ ] Run all four programs in front of the demonstrator.
 - [ ] Show the commit history / branch on GitHub (see [`GIT-GUIDE.md`](GIT-GUIDE.md)).
