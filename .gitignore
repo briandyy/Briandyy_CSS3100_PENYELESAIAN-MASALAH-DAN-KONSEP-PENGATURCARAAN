@@ -1,0 +1,14 @@
+# Java compiled files
+*.class
+
+# Eclipse
+bin/
+.settings/
+.metadata/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
