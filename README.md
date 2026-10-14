@@ -41,7 +41,8 @@ All programs are written in **Java** and organised by lab.
     ├── Average.java
     ├── SalePrice.java
     ├── PoundsToKg.java
-    └── BMI.java
+    ├── BMI.java
+    └── Lab2Combined.java
 ```
 
 ## 🗓️ Progress

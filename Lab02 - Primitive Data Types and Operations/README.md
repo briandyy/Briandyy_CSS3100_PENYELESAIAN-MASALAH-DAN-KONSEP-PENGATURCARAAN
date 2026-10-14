@@ -18,6 +18,7 @@
 | 2 | A(2) | [`SalePrice.java`](SalePrice.java) | Sale price of an item with a discount percentage | ✅ |
 | 3 | A(3) | [`PoundsToKg.java`](PoundsToKg.java) | Convert parcel weight from pounds to kilograms | ✅ |
 | 4 | A(4) | [`BMI.java`](BMI.java) | Individual Body Mass Index (BMI) | ✅ |
+| ⭐ | Bonus | [`Lab2Combined.java`](Lab2Combined.java) | All four calculations combined in a single program (lab sheet option B) | ✅ |
 
 ## 🔍 Input → Process → Output
 
@@ -123,13 +124,40 @@ Body Mass Index (BMI) : Infinity
 
 > A height of 0 causes a **division by zero** — for `double` values Java produces `Infinity` instead of crashing.
 
+### ⭐ Bonus — `Lab2Combined.java` (combined version)
+
+The lab sheet also allows combining all calculations into a single program — this bonus file does all four in one run:
+
+```text
+-- Question A(1): Average of three integers --
+Enter the first integer  : 85
+Enter the second integer : 90
+Enter the third integer  : 95
+Average of 85, 90 and 95 = 90.0
+
+-- Question A(2): Sale price --
+Enter the original price (RM)     : 250
+Enter the discount percentage (%) : 20
+Sale price : RM 200.00
+
+-- Question A(3): Pounds to kilograms --
+Enter the weight in pounds (lb) : 10
+Weight of the parcel : 4.5359 kg
+
+-- Question A(4): Body Mass Index --
+Enter the weight (kg) : 60
+Enter the height (m)  : 1.70
+Body Mass Index (BMI) : 20.76
+```
+
 ## ▶️ Compile & Run
 
 ```bash
-javac Average.java    && java Average
-javac SalePrice.java  && java SalePrice
-javac PoundsToKg.java && java PoundsToKg
-javac BMI.java        && java BMI
+javac Average.java       && java Average
+javac SalePrice.java     && java SalePrice
+javac PoundsToKg.java    && java PoundsToKg
+javac BMI.java           && java BMI
+javac Lab2Combined.java  && java Lab2Combined   # bonus: all four in one run
 ```
 
 ## ✅ Before presenting
