@@ -29,13 +29,19 @@ All programs are written in **Java** and organised by lab.
 ├── Contoh/
 │   ├── README.md
 │   └── HelloWorld.java
-└── Lab01 - Programming and Version Control Environment (GitHub)/
+├── Lab01 - Programming and Version Control Environment (GitHub)/
+│   ├── README.md
+│   ├── GIT-GUIDE.md
+│   ├── Name.java
+│   ├── Student.java
+│   ├── Welcome.java
+│   └── MakingMoneyATM.java
+└── Lab02 - Primitive Data Types and Operations/
     ├── README.md
-    ├── GIT-GUIDE.md
-    ├── Name.java
-    ├── Student.java
-    ├── Welcome.java
-    └── MakingMoneyATM.java
+    ├── Average.java
+    ├── SalePrice.java
+    ├── PoundsToKg.java
+    └── BMI.java
 ```
 
 ## 🗓️ Progress
@@ -43,6 +49,7 @@ All programs are written in **Java** and organised by lab.
 | Lab | Topic | Status |
 |:---:|-------|:------:|
 | **Lab 1** | Programming and Version Control Environment (GitHub) | ✅ Done |
+| **Lab 2** | Primitive Data Types and Operations | ✅ Done |
 | *upcoming labs* | *added throughout the semester* | ⏳ |
 
 ## ▶️ Quick Start
@@ -52,9 +59,9 @@ All programs are written in **Java** and organised by lab.
 git clone https://github.com/briandyy/Briandyy---CSS3100---PENYELESAIAN-MASALAH-DAN-KONSEP-PENGATURCARAAN.git
 
 # Compile & run a program (JDK 17+)
-cd "Briandyy---CSS3100---PENYELESAIAN-MASALAH-DAN-KONSEP-PENGATURCARAAN/Lab01 - Programming and Version Control Environment (GitHub)"
-javac Name.java
-java Name
+cd "Briandyy---CSS3100---PENYELESAIAN-MASALAH-DAN-KONSEP-PENGATURCARAAN/Lab02 - Primitive Data Types and Operations"
+javac Average.java
+java Average
 ```
 
 > 💡 Using Eclipse? **File → New → Java Project**, add the `.java` files, then **Run As → Java Application**.
