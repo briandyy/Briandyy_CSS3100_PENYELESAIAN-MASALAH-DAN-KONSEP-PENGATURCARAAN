@@ -2,6 +2,23 @@
 
 Minggu 3. Buat **PAC, IPO, flowchart, dan pseudocode** untuk kedua soal, lalu tulis Java berdasarkan desain itu. PAC merangkum data dan hasil yang dicari. IPO memisahkan input, proses, dan output supaya perhitungan mudah dilacak saat demo.
 
+## Solusi
+
+| Soal | Program Java | Desain dan bukti run |
+| --- | --- | --- |
+| Q1 · Nilai akhir berbobot | [`Lab3Q1_GradeCalculator.java`](Lab3Q1_GradeCalculator.java) | [PAC, IPO, flowchart, pseudocode, dan transkrip](docs/Q1.md) |
+| Q2 · Resi dua jenis barang | [`Lab3Q2_Receipt.java`](Lab3Q2_Receipt.java) | [PAC, IPO, flowchart, pseudocode, dan transkrip](docs/Q2.md) |
+
+Dari folder ini, kompilasi kedua program dengan JDK, lalu pilih mana yang mau dijalankan:
+
+```bash
+javac -encoding UTF-8 *.java
+java -Duser.language=en -Duser.country=US Lab3Q1_GradeCalculator
+java -Duser.language=en -Duser.country=US Lab3Q2_Receipt
+```
+
+Ketik angka desimal dengan titik, misalnya `2.30`. Contoh Q1 memakai data matrik fiktif.
+
 ## 1. Nilai akhir mata kuliah
 
 Baca nomor matrik untuk identifikasi dan empat nilai yang masing-masing berskala 0–100. Tampilkan kontribusi tiap komponen dan jumlah nilai akhir.

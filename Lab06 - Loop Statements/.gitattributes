@@ -1,0 +1,2 @@
+# Keep prompt spacing in captured stdout; the tests compare these files byte-for-byte.
+samples/*.out.txt whitespace=-blank-at-eol

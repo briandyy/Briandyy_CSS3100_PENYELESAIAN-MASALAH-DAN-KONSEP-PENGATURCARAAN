@@ -9,7 +9,6 @@
  * questions A(1) – A(4) into one single run.
  *
  * File   : Lab2Combined.java
- * Author : Afif Febriandy
  * ==========================================================================
  */
 

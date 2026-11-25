@@ -1,0 +1,25 @@
+******VISITOR 1*******
+
+Enter your nationality: Choose category of visitor (A- Adult, C - Children, S - senior):Number of tickets:Visitor Type A Charge 86.00
+Buy other ticket (Y/N)?:
+Choose category of visitor (A- Adult, C - Children, S - senior):Number of tickets:Visitor Type C Charge 16.00
+Buy other ticket (Y/N)?:
+The total payment for VISITOR 1 is RM102.00
+
+Enter another visitor (Y/N)?: 
+******VISITOR 2*******
+
+Enter your nationality: Choose category of visitor (A- Adult, C - Children, S - senior):Number of tickets:Visitor Type A Charge 86.00
+Buy other ticket (Y/N)?:
+The total payment for VISITOR 2 is RM86.00
+
+Enter another visitor (Y/N)?: 
+******VISITOR 3*******
+
+Enter your nationality: From which part? (I- Kad/Working Permit/Dependent Pass, E- Asean, O - Others):Choose category of visitor (A- Adult, C - Children, S - senior):Number of tickets:Visitor Type A Charge 100.00
+Buy other ticket (Y/N)?:
+From which part? (I- Kad/Working Permit/Dependent Pass, E- Asean, O - Others):Choose category of visitor (A- Adult, C - Children, S - senior):Number of tickets:Visitor Type A Charge 61.00
+Buy other ticket (Y/N)?:
+The total payment for VISITOR 3 is RM161.00
+
+Enter another visitor (Y/N)?: 

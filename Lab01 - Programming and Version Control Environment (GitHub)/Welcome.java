@@ -7,7 +7,6 @@
  * lab sheet ("Welcome" / "to" / "Java" / "Programming!").
  *
  * File   : Welcome.java
- * Author : Afif Febriandy
  * ==========================================================================
  */
 

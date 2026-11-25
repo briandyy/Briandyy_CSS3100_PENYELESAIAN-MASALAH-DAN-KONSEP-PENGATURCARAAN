@@ -1,0 +1,13 @@
+digraph flowchart {
+    graph [rankdir=TB, bgcolor="white", pad=0.12];
+    node [fontname="Helvetica", fontsize=12];
+    edge [arrowsize=0.7];
+
+    start [shape=ellipse, label="Start"];
+    inp [shape=parallelogram, label="Baca weight (kg) dan height (m)"];
+    calc [shape=box, label="bmi = weight / (height * height)"];
+    out [shape=parallelogram, label="Cetak bmi"];
+    end [shape=ellipse, label="End"];
+
+    start -> inp -> calc -> out -> end;
+}

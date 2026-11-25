@@ -1,0 +1,32 @@
+digraph Q1 {
+  graph [rankdir=TB, dpi=140, nodesep=0.24, ranksep=0.27, bgcolor="white", pad=0.14];
+  node [shape=box, fontname="DejaVu Sans", fontsize=12, margin="0.10,0.06"];
+  edge [fontname="DejaVu Sans", fontsize=11, arrowsize=0.75];
+
+  start   [shape=oval, label="Start"];
+  in1     [shape=parallelogram, label="Baca firstString"];
+  count   [label="length = firstString.length()"];
+  long    [shape=diamond, label="length > 10?"];
+  short   [shape=parallelogram, label="Cetak pesan\npanjang kurang dari 10"];
+  slice   [shape=parallelogram, label="Cetak substring(4, 10)\ndan length"];
+  in2     [shape=parallelogram, label="Baca secondString"];
+  match   [shape=diamond, label="firstString.contains\n(secondString)?"];
+  missing [shape=parallelogram, label="Cetak pesan\ntidak ditemukan"];
+  found   [shape=parallelogram, label="Cetak pesan\nditemukan"];
+  swap    [label="Cari indeks kecocokan pertama\nGabungkan awalan + Selamat Datang + akhiran"];
+  out     [shape=parallelogram, label="Cetak newStatement"];
+  stop    [shape=oval, label="End"];
+
+  start -> in1 -> count -> long;
+  long -> short [label="Tidak"];
+  long -> slice [label="Ya"];
+  {rank=same; short; slice}
+  short -> in2;
+  slice -> in2;
+  in2 -> match;
+  match -> missing [label="Tidak"];
+  match -> found [label="Ya"];
+  {rank=same; missing; found}
+  found -> swap -> out -> stop;
+  missing -> stop;
+}

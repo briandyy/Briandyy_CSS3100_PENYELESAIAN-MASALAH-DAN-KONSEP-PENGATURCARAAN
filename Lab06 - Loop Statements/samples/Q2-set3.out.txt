@@ -1,0 +1,20 @@
+******VISITOR 1*******
+
+Enter your nationality: Invalid visitor code.
+Buy other ticket (Y/N)?:
+The total payment for VISITOR 1 is RM0.00
+
+Enter another visitor (Y/N)?: 
+******VISITOR 2*******
+
+Enter your nationality: From which part? (I- Kad/Working Permit/Dependent Pass, E- Asean, O - Others):Invalid visitor code.
+Buy other ticket (Y/N)?:
+From which part? (I- Kad/Working Permit/Dependent Pass, E- Asean, O - Others):Choose category of visitor (A- Adult, C - Children, S - senior):Invalid visitor code.
+Buy other ticket (Y/N)?:
+From which part? (I- Kad/Working Permit/Dependent Pass, E- Asean, O - Others):Choose category of visitor (A- Adult, C - Children, S - senior):Number of tickets:Visitor Type A Charge 0.00
+Buy other ticket (Y/N)?:
+From which part? (I- Kad/Working Permit/Dependent Pass, E- Asean, O - Others):Choose category of visitor (A- Adult, C - Children, S - senior):Number of tickets:Visitor Type C Charge 43.00
+Buy other ticket (Y/N)?:
+The total payment for VISITOR 2 is RM43.00
+
+Enter another visitor (Y/N)?: 

@@ -1,0 +1,34 @@
+digraph Q2 {
+  graph [rankdir=TB, dpi=140, nodesep=0.24, ranksep=0.27, bgcolor="white", pad=0.14];
+  node [shape=box, fontname="DejaVu Sans", fontsize=12, margin="0.10,0.06"];
+  edge [fontname="DejaVu Sans", fontsize=11, arrowsize=0.75];
+
+  start   [shape=oval, label="Start"];
+  in1     [shape=parallelogram, label="Baca firstString"];
+  count   [label="length = firstString.length()"];
+  long    [shape=diamond, label="length > 8?"];
+  invalid [shape=parallelogram, label="Cetak Invalid password"];
+  valid   [shape=parallelogram, label="Cetak Valid password!!"];
+  show    [shape=parallelogram, label="Cetak firstString\ndan length"];
+  in2     [shape=parallelogram, label="Baca secondString"];
+  check   [label="exists = firstString.contains(secondString)"];
+  match   [shape=diamond, label="exists?"];
+  missing [shape=parallelogram, label="Cetak pesan\ntidak ditemukan"];
+  found   [shape=parallelogram, label="Cetak pesan\nditemukan"];
+  join    [label="newStatement = firstString + secondString"];
+  out     [shape=parallelogram, label="Cetak newStatement"];
+  stop    [shape=oval, label="End"];
+
+  start -> in1 -> count -> long;
+  long -> invalid [label="Tidak"];
+  long -> valid [label="Ya"];
+  {rank=same; invalid; valid}
+  invalid -> show;
+  valid -> show;
+  show -> in2 -> check -> match;
+  match -> missing [label="Tidak"];
+  match -> found [label="Ya"];
+  {rank=same; missing; found}
+  missing -> join -> out -> stop;
+  found -> stop;
+}

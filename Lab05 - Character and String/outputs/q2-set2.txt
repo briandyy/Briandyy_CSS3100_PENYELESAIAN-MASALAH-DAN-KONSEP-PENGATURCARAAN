@@ -1,0 +1,6 @@
+Enter first String: KodeDemo123
+Valid password!!
+First String : "KodeDemo123" with length 11
+
+Enter second String: Demo
+Second String exists in First String

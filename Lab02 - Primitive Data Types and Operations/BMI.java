@@ -8,7 +8,6 @@
  * (bmi = weight / height^2)
  *
  * File   : BMI.java
- * Author : Afif Febriandy
  * ==========================================================================
  */
 

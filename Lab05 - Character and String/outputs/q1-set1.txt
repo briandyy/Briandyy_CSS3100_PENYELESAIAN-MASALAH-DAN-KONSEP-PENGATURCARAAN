@@ -1,0 +1,7 @@
+Enter first String: Welcome to Malaysia and Singapore
+Substring from 5 to 10 ome to, length 33
+
+Enter second String: Welcome
+Second String exists in First String
+
+New Statement in String 1 : Selamat Datang to Malaysia and Singapore

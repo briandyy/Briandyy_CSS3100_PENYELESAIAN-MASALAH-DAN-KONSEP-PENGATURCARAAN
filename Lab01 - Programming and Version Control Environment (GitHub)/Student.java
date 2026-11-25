@@ -8,7 +8,6 @@
  * Save the class as Student.java.
  *
  * File   : Student.java
- * Author : Afif Febriandy
  * ==========================================================================
  */
 

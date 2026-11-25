@@ -1,0 +1,11 @@
+digraph flowchart {
+    graph [rankdir=TB, bgcolor="white", pad=0.12];
+    node [fontname="Helvetica", fontsize=12];
+    edge [arrowsize=0.7];
+
+    start [shape=ellipse, label="Start"];
+    out [shape=parallelogram, label="Cetak nama lengkap, nomor matrik,\ndan alamat pada tiga baris"];
+    end [shape=ellipse, label="End"];
+
+    start -> out -> end;
+}

@@ -7,7 +7,6 @@
  * Save the class as Name.java.
  *
  * File   : Name.java
- * Author : Afif Febriandy
  * ==========================================================================
  */
 
@@ -15,7 +14,7 @@ public class Name
 {
     public static void main(String[] args)
     {
-        // Display the author's name on the console screen
-        System.out.println("Afif Febriandy");
+        // Display the example name on the console screen
+        System.out.println("Nama Contoh");
     }
 }

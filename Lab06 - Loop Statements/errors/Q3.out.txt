@@ -1,0 +1,22 @@
+BMI information:
+BMI (18.5-24.9) → Normal
+BMI (25-29.9) → Over Weight
+BMI (30-34.9) → Obese
+BMI (35-39.9) → Severely Obese
+BMI (>=40) → Morbidly Obese
+********************************************
+CAUTION!!
+Women – waist size > 35 inches
+Men – waist size > 40 inches
+----- HIGHER RISK FOR HEART DISEASE AND TYPE 2 DIABETES!!------
+
+*******************************************
+
+HEALTH CALCULATOR
+
+Enter your name : Enter your height in meters :
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2573)
+	at Q3BMICalculator.main(Q3BMICalculator.java:35)

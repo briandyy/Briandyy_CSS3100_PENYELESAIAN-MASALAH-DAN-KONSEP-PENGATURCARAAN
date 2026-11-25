@@ -1,0 +1,5 @@
+Enter first String: ABCDEFGHIJ
+String length less than 10
+
+Enter second String: xyz
+Second String not exists in First String

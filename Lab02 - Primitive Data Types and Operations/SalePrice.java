@@ -8,7 +8,6 @@
  * (sale = price x (100 - discount percentage) / 100)
  *
  * File   : SalePrice.java
- * Author : Afif Febriandy
  * ==========================================================================
  */
 

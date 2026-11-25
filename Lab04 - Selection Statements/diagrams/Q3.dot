@@ -1,0 +1,24 @@
+digraph flowchart {
+  graph [rankdir=TB, bgcolor="white", dpi=150, pad=0.15, nodesep=0.30, ranksep=0.28];
+  node [shape=box, fontname="DejaVu Sans", fontsize=11, margin="0.12,0.08"];
+  edge [fontname="DejaVu Sans", fontsize=10];
+  start [shape=oval, label="Start"];
+  end [shape=oval, label="End"];
+
+  menu [shape=parallelogram, label="Print menu"];
+  input [shape=parallelogram, label="Read choice"];
+  pick [shape=diamond, label="switch (choice)"];
+  set [label="Set item and price by case:\n1 Steak (29.50); 2 Grill chicken (19.50)\n3 Pasta (15.00); 4 Drinks (4.90)"];
+  quit [shape=parallelogram, label="Print quit message"];
+  invalid [shape=parallelogram, label="Print invalid choice message"];
+  qty [shape=parallelogram, label="Read quantity"];
+  calc [label="total = quantity * price"];
+  show [shape=parallelogram, label="Print item, price, quantity, and total"];
+  start -> menu -> input -> pick;
+  pick -> set [label="1, 2, 3, or 4"];
+  pick -> quit [label="0"];
+  pick -> invalid [label="default"];
+  set -> qty -> calc -> show -> end;
+  quit -> end;
+  invalid -> end;
+}

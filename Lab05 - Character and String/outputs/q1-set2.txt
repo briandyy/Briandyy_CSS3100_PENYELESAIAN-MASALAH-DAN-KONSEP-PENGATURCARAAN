@@ -1,0 +1,7 @@
+Enter first String: Modul Java dan Java
+Substring from 5 to 10 l Java, length 19
+
+Enter second String: Java
+Second String exists in First String
+
+New Statement in String 1 : Modul Selamat Datang dan Java

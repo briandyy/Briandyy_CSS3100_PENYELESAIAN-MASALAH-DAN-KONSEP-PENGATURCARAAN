@@ -1,0 +1,19 @@
+digraph flowchart {
+  graph [rankdir=TB, bgcolor="white", dpi=150, pad=0.15, nodesep=0.30, ranksep=0.28];
+  node [shape=box, fontname="DejaVu Sans", fontsize=11, margin="0.12,0.08"];
+  edge [fontname="DejaVu Sans", fontsize=10];
+  start [shape=oval, label="Start"];
+  end [shape=oval, label="End"];
+
+  input [shape=parallelogram, label="Read num"];
+  cond [shape=diamond, label="num % 3 == 0?"];
+  yes [label="result = \"Divisible by 3 : \" + num"];
+  no [label="result = \"NOT Divisible by 3 : \" + num"];
+  show [shape=parallelogram, label="Print result"];
+  start -> input -> cond;
+  cond -> yes [label="Yes"];
+  cond -> no [label="No"];
+  yes -> show;
+  no -> show;
+  show -> end;
+}

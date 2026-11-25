@@ -1,21 +1,25 @@
 # Lab 5 · Character and String
 
-Minggu 6, Lab Assignment 3. Lembar meminta flowchart, program Java, dan **tiga set output**, serta komentar identitas pada file yang akan dikumpulkan. Jangan pakai kata sandi asli buat pengujian.
+CSS3100 · Minggu 6 · Lab Assignment 3. Tujuan: membaca satu baris utuh, memeriksa panjangnya, mencari substring, dan menyusun teks baru dengan Java. Lembar lab meminta **flowchart, kode Java, dan tiga set output**.
 
-## Q1. Potong teks dan ganti bagian yang cocok
+> Referensi pribadi. Jangan publikasikan atau bagikan jawaban. Nama, nomor matrik, dan program studi pada header Java sengaja berupa placeholder. Jika diperlukan untuk pengumpulan yang diizinkan, isi hanya pada salinan pengumpulan. Selalu gunakan string contoh, bukan kata sandi asli.
 
-1. Baca string pertama, termasuk spasi, lalu cek panjangnya.
-2. Jika panjangnya **lebih dari 10**, tampilkan karakter ke-5 sampai ke-10 dan panjang seluruh string. Jika tidak, tampilkan pesan sesuai lembar. Syaratnya `> 10`, jadi panjang **tepat 10** ikut jalur pesan itu.
-3. Baca string kedua. Jika ditemukan di string pertama, laporkan bahwa keduanya cocok lalu ganti bagian yang ditemukan dengan `Selamat Datang`. Jika tidak ditemukan, cetak pesan tanpa mengubah teks.
+| Soal | Desain | Java | Tangkapan konsol |
+| --- | --- | --- | --- |
+| Q1 · Potong teks dan ganti kecocokan pertama | [PAC, IPO, pseudocode, dan flowchart](Q1-Design.md) | [Lab5Q1_StringOperation.java](Lab5Q1_StringOperation.java) | [Set 1](outputs/q1-set1.txt) · [Set 2](outputs/q1-set2.txt) · [Set 3](outputs/q1-set3.txt) |
+| Q2 · Cek panjang dan gabungkan teks bila tak ditemukan | [PAC, IPO, pseudocode, dan flowchart](Q2-Design.md) | [Lab5Q2_PasswordCheck.java](Lab5Q2_PasswordCheck.java) | [Set 1](outputs/q2-set1.txt) · [Set 2](outputs/q2-set2.txt) · [Set 3](outputs/q2-set3.txt) |
 
-Contoh lembar: untuk `Welcome to Malaysia and Singapore`, cuplikan karakter 5–10 adalah `ome to`. Uji juga teks dengan kata yang tidak ditemukan. Posisi karakter di soal mulai dari 1; indeks Java mulai dari 0.
+## Cara menjalankan
 
-## Q2. Cek panjang lalu cari teks
+Dari folder lab, gunakan JDK (diuji dengan Java 21):
 
-1. Baca string pertama. Status valid hanya jika panjangnya **lebih dari 8**. Tepat 8 masih tidak valid.
-2. Baca string kedua, lalu periksa apakah string pertama mengandung teks itu.
-3. Jika ditemukan, laporkan dan pertahankan teks awal. Jika tidak, laporkan lalu gabungkan string kedua ke akhir string pertama.
+```bash
+mkdir -p .build
+javac -d .build Lab5Q1_StringOperation.java Lab5Q2_PasswordCheck.java
+java -cp .build Lab5Q1_StringOperation
+java -cp .build Lab5Q2_PasswordCheck
+```
 
-Ini latihan `String`, bukan aturan keamanan kata sandi. Kasus uji yang berguna: panjang 8, panjang 9, substring ada, dan substring tidak ada.
+Jalankan satu soal, masukkan dua baris sesuai prompt (tekan Enter setelah masing-masing), lalu jalankan soal berikutnya. File di `outputs/` memuat prompt, input, dan hasil yang tampil di konsol. Sumber flowchart ada di `flowcharts/` sebagai `.dot`; SVG tertanam di desain, dengan PNG sebagai alternatif.
 
-Acuan: *Lab 5: Character and String*, bagian Instructions dan Questions.
+Acuan: *Lab 5: Character and String*, bagian Instructions, Questions, dan Sample Output; *Topic 3: Problem Solving Techniques* untuk format desain; *Topic 5: Strings* untuk operasi `String`.

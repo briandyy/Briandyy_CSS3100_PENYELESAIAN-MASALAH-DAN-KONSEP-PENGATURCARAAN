@@ -7,7 +7,6 @@
  * (average = sum of integers / total integers)
  *
  * File   : Average.java
- * Author : Afif Febriandy
  * ==========================================================================
  */
 

@@ -1,0 +1,6 @@
+Enter trip distance for staff 1 (km):
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextDouble(Scanner.java:2573)
+	at Q4TravelClaims.main(Q4TravelClaims.java:18)

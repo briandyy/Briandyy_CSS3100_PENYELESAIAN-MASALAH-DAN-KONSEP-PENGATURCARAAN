@@ -1,0 +1,2 @@
+Enter product number (0 to stop): Invalid product number.
+Enter product number (0 to stop): Enter quantity sold: Enter product number (0 to stop): Enter quantity sold: Enter product number (0 to stop): Total retail value: RM13.50

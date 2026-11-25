@@ -1,0 +1,30 @@
+Below Lower Cutoff
+1
+18.49
+35
+W
+Y
+At Lower Cutoff
+1
+18.5
+35.01
+W
+Y
+Just Under Twenty Five
+1
+24.999
+40
+M
+Y
+At Twenty Five
+1
+25
+40.01
+M
+Y
+Just Under Thirty
+1
+29.99
+34
+w
+n

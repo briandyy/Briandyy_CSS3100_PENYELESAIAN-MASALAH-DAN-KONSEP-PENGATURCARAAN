@@ -1,0 +1,8 @@
+Enter first String: Contoh88
+Invalid password
+First String : "Contoh88" with length 8
+
+Enter second String: 99
+Second String not exists in First String
+
+New Statement in String 1 : Contoh8899

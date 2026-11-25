@@ -13,7 +13,7 @@ Catatan lab Java di Universiti Putra Malaysia, Semester 1 2026/2027. Nama mata k
 | [5 · String](Lab05%20-%20Character%20and%20String/README.md) | Potong bagian teks, cari substring, ubah teks, dan cek panjang kata sandi contoh. |
 | [6 · Loop](Lab06%20-%20Loop%20Statements/README.md) | Akumulasi penjualan, tiket per pengunjung, BMI berulang, dan klaim tepat 20 staf. |
 
-Folder Lab 1–2 berisi contoh Java yang bisa dicoba. Untuk Lab 3–6, README merangkum soal, format yang diminta, dan kasus yang perlu dicek. Untuk empat lab itu, repo ini tidak memuat lembar asli dosen, jawaban, atau bahan demo.
+Buka README tiap lab untuk daftar soal dan tautan ke kode, rancangan, flowchart, dan contoh eksekusi. Semua contoh input memakai data latihan. Lembar asli dosen dan rekaman demo tidak dimasukkan.
 
 ## Mencoba program
 

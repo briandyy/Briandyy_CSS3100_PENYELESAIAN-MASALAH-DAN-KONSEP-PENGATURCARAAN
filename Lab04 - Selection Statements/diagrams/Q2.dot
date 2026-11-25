@@ -1,0 +1,26 @@
+digraph flowchart {
+  graph [rankdir=TB, bgcolor="white", dpi=150, pad=0.15, nodesep=0.30, ranksep=0.28];
+  node [shape=box, fontname="DejaVu Sans", fontsize=11, margin="0.12,0.08"];
+  edge [fontname="DejaVu Sans", fontsize=10];
+  start [shape=oval, label="Start"];
+  end [shape=oval, label="End"];
+
+  input [shape=parallelogram, label="Read units and price"];
+  row [label="Choose unit row in this order:\n> 1000; >= 500; >= 100; >= 10; otherwise"];
+  c1 [shape=diamond, label="price <= 10.00?"];
+  c2 [shape=diamond, label="price <= 100.00?"];
+  a [label="Rate from column 1"];
+  b [label="Rate from column 2"];
+  c [label="Rate from column 3"];
+  calc [label="totalBefore = units * price\ndiscount = totalBefore * discountRate\ntotalAfter = totalBefore - discount"];
+  show [shape=parallelogram, label="Print units, total before,\nrate, discount amount, and total after"];
+  start -> input -> row -> c1;
+  c1 -> a [label="Yes"];
+  c1 -> c2 [label="No"];
+  c2 -> b [label="Yes"];
+  c2 -> c [label="No"];
+  a -> calc;
+  b -> calc;
+  c -> calc;
+  calc -> show -> end;
+}

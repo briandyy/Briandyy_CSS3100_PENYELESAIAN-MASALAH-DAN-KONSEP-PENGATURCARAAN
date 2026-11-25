@@ -1,0 +1,13 @@
+digraph flowchart {
+    graph [rankdir=TB, bgcolor="white", pad=0.12];
+    node [fontname="Helvetica", fontsize=12];
+    edge [arrowsize=0.7];
+
+    start [shape=ellipse, label="Start"];
+    inp [shape=parallelogram, label="Baca pounds (lb)"];
+    calc [shape=box, label="kilograms = pounds * 0.45359"];
+    out [shape=parallelogram, label="Cetak kilograms (kg)"];
+    end [shape=ellipse, label="End"];
+
+    start -> inp -> calc -> out -> end;
+}

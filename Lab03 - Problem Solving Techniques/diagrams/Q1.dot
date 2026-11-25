@@ -1,0 +1,19 @@
+digraph flowchart {
+  graph [rankdir=TB, bgcolor="white", dpi=150, pad=0.15, nodesep=0.30, ranksep=0.28];
+  node [shape=box, fontname="DejaVu Sans", fontsize=11, margin="0.12,0.08"];
+  edge [fontname="DejaVu Sans", fontsize=10];
+  start [shape=oval, label="Start"];
+  end [shape=oval, label="End"];
+
+  input [shape=parallelogram, label="Read matric and the four marks"];
+  parts [label="a1 = mark1 * 0.15\na2 = mark2 * 0.20\nlab = mark3 * 0.35\nfin = mark4 * 0.30\ntotal = a1 + a2 + lab + fin"];
+  show [shape=parallelogram, label="Print the four contributions and total"];
+  check [shape=diamond, label="total >= 50?"];
+  pass [shape=parallelogram, label="Print Remarks: PASS"];
+  fail [shape=parallelogram, label="Print Remarks: FAIL"];
+  start -> input -> parts -> show -> check;
+  check -> pass [label="Yes"];
+  check -> fail [label="No"];
+  pass -> end;
+  fail -> end;
+}

@@ -1,0 +1,8 @@
+Enter first String: DBDBGh434
+Valid password!!
+First String : "DBDBGh434" with length 9
+
+Enter second String: Ahmad
+Second String not exists in First String
+
+New Statement in String 1 : DBDBGh434Ahmad

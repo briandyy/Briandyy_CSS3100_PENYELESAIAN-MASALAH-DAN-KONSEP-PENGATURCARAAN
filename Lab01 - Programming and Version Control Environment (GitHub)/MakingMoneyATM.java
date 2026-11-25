@@ -11,7 +11,6 @@
  * attractive layout on the console screen (comments included, as required).
  *
  * File   : MakingMoneyATM.java
- * Author : Afif Febriandy
  * ==========================================================================
  */
 
