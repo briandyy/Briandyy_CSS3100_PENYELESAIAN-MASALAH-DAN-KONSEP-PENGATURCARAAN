@@ -12,7 +12,6 @@
  *
  * File   : MakingMoneyATM.java
  * Author : Afif Febriandy
- * Matric : BC264825
  * ==========================================================================
  */
 

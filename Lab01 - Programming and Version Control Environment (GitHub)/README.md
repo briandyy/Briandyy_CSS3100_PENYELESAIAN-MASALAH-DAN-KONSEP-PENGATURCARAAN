@@ -1,75 +1,32 @@
-# Lab 1 (Week 1) — Programming and Version Control Environment (GitHub)
+# Lab 1 · Java dan Git
 
-**Course:** CCS3100 Problem Solving and Programming Concepts · **Semester 1, 2026/2027**
+Minggu 1. Lembar lab mulai dari membuat `HelloWorld.java` dengan editor teks, mengompilasi lewat `javac`, dan menjalankan lewat `java`. Langkah yang sama dicoba di Eclipse. Bagian Git memakai alur clone, branch, stage, commit, dan push; lihat [catatan EGit](GIT-GUIDE.md).
 
-> From the lab sheet: *Using Eclipse open source tools* — creating your first Java
-> application, and using **GitHub** for version control.
+## Empat soal
 
-## 🎯 What this lab covers
+| No. | File | Yang diminta |
+| --- | --- | --- |
+| 1 | [`Name.java`](Name.java) | Tulis, kompilasi, dan uji kelas yang mencetak nama satu baris. |
+| 2 | [`Student.java`](Student.java) | Cetak nama lengkap, nomor matrik, dan alamat di tiga baris. File publik memakai data contoh. |
+| 3 | [`Welcome.java`](Welcome.java) | Cetak `Welcome`, `to`, `Java`, dan `Programming!` di baris terpisah. |
+| 4 | [`MakingMoneyATM.java`](MakingMoneyATM.java) | Buat tampilan sambutan ATM dengan judul `Making Money Bank ATM Service`, teks `Welcome!`, dan komentar. Soal memberi latar tentang transaksi, tapi bagian yang diminta hanya layar sambutan. |
 
-1. Writing Java in a text editor and compiling/running it **without an IDE** (`javac`, `java`).
-2. Using the **Eclipse IDE** to create, compile and run Java programs.
-3. Using **GitHub** (via Eclipse EGit) to clone the team repository, branch, commit and push.
+Soal meminta semua program ditunjukkan ke dosen atau demonstrator saat lab. Ada latihan tambahan dari buku, halaman 52–53 nomor 1.2 dan 1.5; teks latihannya tidak tercantum di lembar, jadi tidak dirangkum di sini.
 
-## 📝 Exercises & Solutions
+## Coba dari terminal
 
-| # | File | Task | Status |
-|---|------|------|:------:|
-| 1 | [`Name.java`](Name.java) | Print your name on the screen. | ✅ |
-| 2 | [`Student.java`](Student.java) | Print full name, matric number and address in **three separate lines**. | ✅ |
-| 3 | [`Welcome.java`](Welcome.java) | Print multiple lines of text: `Welcome` / `Java` / `Programming!` | ✅ |
-| 4 | [`MakingMoneyATM.java`](MakingMoneyATM.java) | Display "Making Money Bank ATM Service" and "Welcome!" in an **attractive layout** (comments required). | ✅ |
-
-## 🖥️ Expected Output
-
-**1 — `Name.java`**
-
-```text
-Afif Febriandy
+```bash
+javac Welcome.java
+java Welcome
 ```
-
-**2 — `Student.java`**
-
-```text
-Full Name : Afif Febriandy
-Matric No : BC264825
-Address   : KMR Oneputra Residence
-```
-
-**3 — `Welcome.java`**
 
 ```text
 Welcome
-
+to
 Java
 Programming!
 ```
 
-**4 — `MakingMoneyATM.java`**
+Nama file harus sama dengan nama `public class`, termasuk huruf besar/kecil. Waktu menjalankan `java`, tulis `Welcome`, bukan `Welcome.java` atau `Welcome.class`.
 
-```text
-********************************************************************
-*                                                                  *
-*                    Making Money Bank ATM Service                 *
-*                                                                  *
-********************************************************************
-
-Welcome!
-```
-
-## ▶️ Compile & Run
-
-```bash
-javac Name.java           && java Name
-javac Student.java        && java Student
-javac Welcome.java        && java Welcome
-javac MakingMoneyATM.java && java MakingMoneyATM
-```
-
-No `javac` yet? Install the latest **JDK** — or use **Eclipse**: *Run As → Java Application*.
-
-## ✅ Before presenting
-
-- [x] Fill in the real address in `Student.java`.
-- [ ] Run all four programs in front of the demonstrator.
-- [ ] Show the commit history / branch on GitHub (see [`GIT-GUIDE.md`](GIT-GUIDE.md)).
+Acuan: *Lab 1: Programming and Version Control Environment (GitHub)*, hlm. 1–6.

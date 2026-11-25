@@ -9,7 +9,6 @@
  *
  * File   : Student.java
  * Author : Afif Febriandy
- * Matric : BC264825
  * ==========================================================================
  */
 
@@ -18,12 +17,12 @@ public class Student
     public static void main(String[] args)
     {
         // Line 1 - full name
-        System.out.println("Full Name : Afif Febriandy");
+        System.out.println("Full Name : Nama Contoh");
 
         // Line 2 - matric number
-        System.out.println("Matric No : BC264825");
+        System.out.println("Matric No : BC000000");
 
         // Line 3 - address
-        System.out.println("Address   : KMR Oneputra Residence");
+        System.out.println("Address   : Alamat Contoh");
     }
 }

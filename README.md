@@ -1,77 +1,30 @@
-<div align="center">
+# CSS3100 · Problem Solving and Programming Concepts
 
-# CCS3100 — Problem Solving and Programming Concepts
+Catatan lab Java di Universiti Putra Malaysia, Semester 1 2026/2027. Nama mata kuliahnya *Penyelesaian Masalah dan Konsep Pengaturcaraan*.
 
-**Penyelesaian Masalah dan Konsep Pengaturcaraan**
+## Lab 1–6
 
-![Course](https://img.shields.io/badge/Course-CCS3100-blueviolet)
-![Language](https://img.shields.io/badge/Language-Java-orange)
-![Semester](https://img.shields.io/badge/Semester-2026%2F2027--1-brightgreen)
+| Lab | Yang dikerjakan |
+| --- | --- |
+| [1 · Java dan Git](Lab01%20-%20Programming%20and%20Version%20Control%20Environment%20%28GitHub%29/README.md) | Cetak teks ke konsol, kompilasi tanpa IDE, lalu coba branch dan commit. |
+| [2 · Tipe data dan operasi](Lab02%20-%20Primitive%20Data%20Types%20and%20Operations/README.md) | Empat hitungan dengan `Scanner`: rata-rata, diskon, konversi berat, dan BMI. |
+| [3 · Analisis masalah](Lab03%20-%20Problem%20Solving%20Techniques/README.md) | Rancang program nilai berbobot dan resi dua barang sebelum menulis kode. |
+| [4 · Seleksi](Lab04%20-%20Selection%20Statements/README.md) | Diskon bertingkat, menu `switch`, konversi `if`, nilai huruf, dan operator `?:`. |
+| [5 · String](Lab05%20-%20Character%20and%20String/README.md) | Potong bagian teks, cari substring, ubah teks, dan cek panjang kata sandi contoh. |
+| [6 · Loop](Lab06%20-%20Loop%20Statements/README.md) | Akumulasi penjualan, tiket per pengunjung, BMI berulang, dan klaim tepat 20 staf. |
 
-*Lab exercises & solutions · Universiti Putra Malaysia*
+Folder Lab 1–2 berisi contoh Java yang bisa dicoba. Untuk Lab 3–6, README merangkum soal, format yang diminta, dan kasus yang perlu dicek. Untuk empat lab itu, repo ini tidak memuat lembar asli dosen, jawaban, atau bahan demo.
 
-</div>
+## Mencoba program
 
----
-
-## 📖 About
-
-This repository contains my **lab exercises and solutions** for **CCS3100 — Problem Solving and Programming Concepts** (Semester 1, 2026/2027), Bachelor of Computer Science (Computer Network) with Honours, FSKTM, Universiti Putra Malaysia.
-
-All programs are written in **Java** and organised by lab.
-
-## 📂 Repository Structure
-
-```text
-.
-├── README.md
-├── .gitignore
-├── Contoh/
-│   ├── README.md
-│   └── HelloWorld.java
-├── Lab01 - Programming and Version Control Environment (GitHub)/
-│   ├── README.md
-│   ├── GIT-GUIDE.md
-│   ├── Name.java
-│   ├── Student.java
-│   ├── Welcome.java
-│   └── MakingMoneyATM.java
-└── Lab02 - Primitive Data Types and Operations/
-    ├── README.md
-    ├── Average.java
-    ├── SalePrice.java
-    ├── PoundsToKg.java
-    ├── BMI.java
-    └── Lab2Combined.java
-```
-
-## 🗓️ Progress
-
-| Lab | Topic | Status |
-|:---:|-------|:------:|
-| **Lab 1** | Programming and Version Control Environment (GitHub) | ✅ Done |
-| **Lab 2** | Primitive Data Types and Operations | ✅ Done |
-| *upcoming labs* | *added throughout the semester* | ⏳ |
-
-## ▶️ Quick Start
+Pasang JDK dan jalankan dari folder lab yang berisi file `.java`:
 
 ```bash
-# Clone the repository
-git clone https://github.com/briandyy/Briandyy---CSS3100---PENYELESAIAN-MASALAH-DAN-KONSEP-PENGATURCARAAN.git
-
-# Compile & run a program (JDK 17+)
-cd "Briandyy---CSS3100---PENYELESAIAN-MASALAH-DAN-KONSEP-PENGATURCARAAN/Lab02 - Primitive Data Types and Operations"
+cd "Lab02 - Primitive Data Types and Operations"
 javac Average.java
 java Average
 ```
 
-> 💡 Using Eclipse? **File → New → Java Project**, add the `.java` files, then **Run As → Java Application**.
+Kalau pakai Eclipse, buka file dalam Java Project lalu pilih **Run As → Java Application**. [HelloWorld](Contoh/HelloWorld.java) cukup kalau cuma mau cek apakah Java sudah jalan.
 
-## 👤 Author
-
-**Afif Febriandy** (BC264825) · [@briandyy](https://github.com/briandyy)
-Bachelor of Computer Science (Computer Network) with Honours · Universiti Putra Malaysia
-
----
-
-<div align="center"><sub>© 2026 Afif Febriandy · FSKTM, Universiti Putra Malaysia</sub></div>
+Kode kelas ditulis `CSS3100` di sini. Beberapa lembar memakai `CCS3100` atau `CSC3100`. Minggu dan syarat yang dicatat di tiap folder merujuk ke lembar lab, bukan pengumuman tenggat terbaru.
